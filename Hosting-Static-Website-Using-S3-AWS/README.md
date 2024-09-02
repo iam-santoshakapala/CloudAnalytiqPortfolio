@@ -45,27 +45,27 @@ Follow these steps to host your static website on AWS S3:
 
    When "Static website hosting" is enabled, the bucket endpoint is created.
 
-    8. **Bucket Policy for File Access**
+8. **Bucket Policy for File Access**
 
-        - Create a bucket policy to enable access to the files.
-        - Navigate to the "Permissions" tab and under the "Bucket policy" section, enter the provided policy, ensuring
-          to
-          change the Resource to your bucket's ARN followed by "/*".
+    - Create a bucket policy to enable access to the files.
+    - Navigate to the "Permissions" tab and under the "Bucket policy" section, enter the provided policy, ensuring
+      to
+      change the Resource to your bucket's ARN followed by "/*".
 
-        - Example:
+    - Example:
 
-          `{
-          "Version": "2012-10-17",
-          "Statement": [
-          {
-          "Sid": "PublicReadGetObject",
-          "Effect": "Allow",
-          "Principal": "*",
-          "Action": "s3:GetObject",
-          "Resource": "arn:aws:s3:::cloudanalytiq.com/*"
-          }
-          ]
-          }`
+      `{
+      "Version": "2012-10-17",
+      "Statement": [
+      {
+      "Sid": "PublicReadGetObject",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::cloudanalytiq.com/*"
+      }
+      ]
+      }`
 
 9. **Upload Your Website**
 
