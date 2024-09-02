@@ -21,7 +21,7 @@ Explore the diverse range of projects featured in this portfolio:
 ## Project 1: [Hosting Static Website Using AWS S3](Hosting-Static-Website-Using-S3-AWS)
 
 * Description: Hosting a static website on AWS S3.
-* *Technologies Used: AWS S3, CLoudFront, Route 53, ACM, GoDaddy.
+* Technologies Used: AWS S3, CLoudFront, Route 53, ACM, GoDaddy.
 
 ## Contact Information
 
