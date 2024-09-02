@@ -112,7 +112,8 @@ With these steps, you can easily host your static website on AWS S3, benefiting 
 cost-effectiveness. Have fun hosting your website!
 
 If you have any questions, feedback, or collaboration opportunities, please feel free to reach out to me. You can
-contact me via email at [santosha.kapala@yahoo.com](mailto:santosha.kapala@yahoo.com)
+contact me via email at [santosha.kapala@yahoo.com](mailto:santosha.kapala@yahoo.com).
+
 ---
 
 *Author: [Santosha Kapala](https://www.linkedin.com/in/santosha-kapala-703a9b25/)*
